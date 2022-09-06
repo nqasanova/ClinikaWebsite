@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: space-evenly;
+}
+
+header .logo{
+    width: 15%;
+    margin-left: 90px;
+}
+
+header .logo img{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-style: none;
+    display: inline;
+    font-family: poppins;
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 27px;
+    padding-top: 20px;
+    vertical-align: middle;
+    width: 177px;
+}
+
+header nav{
+    color: #fff;
+    padding-top: 40px;
+    cursor: pointer;
+}
+header nav a{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 10px 30px 10px;
+}
+
+header .button a{
+    color: rgb(37, 37, 37);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 35px 10px 35px;
+    margin-top: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    height: 53px;
+    line-height: 33px;
+    margin-right: 70px;
+}
+
+#info{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    padding: 18rem 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+#info .news{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+#info .news::before{
+    content: 'FFP3 Mask';
+    position: absolute;
+    top: -126px;
+    left: -50px;
+    font-size: 190px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: 1;
+    opacity: calc(20%);
+}
+
+#info .news .left-text{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 45px;
+    z-index: 3;
+    position: relative;
+}
+
+#info .news .left-text h1{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Jost;
+    font-size: 55px;
+    font-weight: bold;
+    width: 510px;
+}
+
+#info .news .left-text p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 40px;
+    padding-top: 19px;
+    display: block;
+    font-size: 17px;
+    width: 500px;
+    font-family: Poppins;
+}
+
+#info .news .right-pic{
+    width: 30%;
+    z-index: 2;
+}
+
+#info .news .right-pic img{
+    width: 110%;    
+}
+
+#info .news .left-text a{
+    color: #fff;
+    background-color: #006ba6;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+#info .news .left-text a:hover{
+    background-color: #1ca4ee;
+}
+
+.masks-container {
+    margin: 100px 12%;
+    text-align: center;
+}
+
+.masks-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.masks-gallery .masks-box {
+    border: 1px solid #fff;
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.masks-texts h1 {
+    position: relative;
+    font-size: 36px;
+    color: #222222;
+    text-align: center;
+}
+
+.masks-texts h1::before {
+    color: #f7f7f7;
+    content: "Masks";
+    position: absolute;
+    font-size: 150px;
+    line-height: 240px;
+    text-align: center;
+    left: 26%;
+    top: -360%;
+    z-index: -1;
+    margin-left: 50px;
+}
+
+#lp {
+    position: relative;
+    font-size: 36px;
+    color: #222222;
+    text-align: center;
+
+}
+
+#lp::before {
+    content: "Latest";
+    color: #f7f7f7;
+    position: absolute;
+    text-align: center;
+    top: -245%;
+    left: 28%;
+    z-index: -1;
+    font-size: 150px;
+    line-height: 240px;
+}
+
+.masks-box .image img {
+    width: 100%;
+    transition: .5s;
+    vertical-align: bottom;
+}
+
+.masks-box .image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.masks-box .image img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.masks-box-right {
+    background-color: #fff;
+    z-index: 1;
+    right: 15px;
+    top: 15px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.masks-box-right i {
+    margin: 15px 0;
+}
+
+.masks-box-bottom {
+    background-color: #F2F2F2;
+    text-align: left;
+    padding: 10px 22px;
+}
+
+.masks-box-bottom h1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(34, 52, 65);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.masks-box-bottom p{
+    color: rgb(34, 52, 65);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.bottom-texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-texts i {
+    color: #777;
+    font-size: 14px !important;
+}
+
+#explore-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 107, 166);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .5s;
+    letter-spacing: 0.5px;
+    padding: 15px 30px 15px 30px;
+}
+
+#explore-button:hover {
+    background-color: rgb(0, 107, 166);
+}
+
+#feedback {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    height: 510px;
+    margin-bottom: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback-container {
+    color: #fff;
+    text-align: center;
+    padding: 15% 510px 0 0;
+}
+
+.feedback-container h2 {
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.feedback-container h2::before {
+    content: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Quality.png);
+    left: 20%;
+    top: -200%;
+    position: absolute;
+}
+
+.feedback-container p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    padding: 0 24%;
+}
+
+.feedback-container a {
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
