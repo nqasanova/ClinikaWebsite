@@ -184,26 +184,6 @@ header .button a{
     margin-left: 50px;
 }
 
-#lp {
-    position: relative;
-    font-size: 36px;
-    color: #222222;
-    text-align: center;
-
-}
-
-#lp::before {
-    content: "Latest";
-    color: #f7f7f7;
-    position: absolute;
-    text-align: center;
-    top: -245%;
-    left: 28%;
-    z-index: -1;
-    font-size: 150px;
-    line-height: 240px;
-}
-
 .masks-box .image img {
     width: 100%;
     transition: .5s;
